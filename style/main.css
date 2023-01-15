@@ -1,3 +1,7 @@
+.wrapper {
+    padding: 100px 15px;
+}
+
 /* .swiper {
     width: 50%;
 } */
@@ -156,4 +160,38 @@
     100% {
         transform: rotate(360deg);
     }
+}
+
+/* ------------ */
+
+.swiper-two {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.swiper-slide_2 {
+    padding: 30px;
+    text-align: center;
+    height: 100px;
+    /* width: 200px; */
+}
+
+.swiper-button-prev_2 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.swiper-button-next_2 {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.swiper-button-prev_2::after,
+.swiper-button-next_2::after {
+    color: #000;
 }
